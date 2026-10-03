@@ -1,0 +1,310 @@
+
+> cairn@1.0.0 dev
+> next dev -p 3000
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:3000
+  - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 2.4s
+ ✓ Compiled /api/health in 251ms (27 modules)
+ GET /api/health 200 in 362ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.5s (630 modules)
+ GET / 200 in 2622ms
+ GET / 200 in 50ms
+ ○ Compiling /api/auth/me ...
+ ✓ Compiled /api/auth/me in 757ms (420 modules)
+ GET /api/auth/me 401 in 917ms
+ ✓ Compiled /register in 464ms (737 modules)
+ ✓ Compiled /explore in 259ms (729 modules)
+ ✓ Compiled /api/careers in 168ms (429 modules)
+ GET /api/careers? 200 in 249ms
+ ○ Compiling /explore/[slug] ...
+ ✓ Compiled /explore/[slug] in 3s (1768 modules)
+ ✓ Compiled /api/careers/[slug] in 226ms (950 modules)
+ GET /api/careers/data-analyst 200 in 611ms
+ GET /api/careers? 200 in 32ms
+ GET /api/careers/ai-ml-engineer 200 in 34ms
+ ✓ Compiled /api/goals in 364ms (962 modules)
+ POST /api/goals 401 in 437ms
+ ✓ Compiled /login in 401ms (1788 modules)
+ POST /api/goals 401 in 24ms
+ ✓ Compiled /api/auth/login in 286ms (971 modules)
+ POST /api/auth/login 200 in 440ms
+ ✓ Compiled /middleware in 311ms (73 modules)
+ ✓ Compiled /dashboard in 386ms (1799 modules)
+ ✓ Compiled /api/dashboard in 259ms (977 modules)
+ GET /api/dashboard 200 in 351ms
+ ✓ Compiled /roadmap in 443ms (1792 modules)
+ ✓ Compiled /api/roadmap in 279ms (968 modules)
+ GET /api/roadmap 200 in 372ms
+ ✓ Compiled /api/roadmap/generate in 238ms (967 modules)
+ POST /api/roadmap/generate 201 in 557ms
+ GET /api/roadmap 200 in 22ms
+ ✓ Compiled /api/roadmap/items/[id] in 182ms (963 modules)
+ PATCH /api/roadmap/items/cmusciqvg000j2ceij2mandfr 200 in 605ms
+ GET /api/roadmap 200 in 24ms
+ PATCH /api/roadmap/items/cmusciqvg000j2ceij2mandfr 200 in 90ms
+ GET /api/roadmap 200 in 26ms
+ PATCH /api/roadmap/items/cmusciqvg000j2ceij2mandfr 200 in 213ms
+ GET /api/roadmap 200 in 22ms
+ PATCH /api/roadmap/items/cmusciqvg000j2ceij2mandfr 200 in 46ms
+ GET /api/roadmap 200 in 21ms
+ ✓ Compiled /learn in 326ms (1795 modules)
+ ✓ Compiled /api/resources in 230ms (969 modules)
+ GET /api/resources 200 in 297ms
+ ✓ Compiled /api/auth/me in 226ms (967 modules)
+ GET /api/auth/me 200 in 275ms
+ GET /api/resources 200 in 31ms
+ GET /api/auth/me 200 in 29ms
+ GET /api/resources 200 in 29ms
+ GET /api/auth/me 200 in 24ms
+ ✓ Compiled /projects in 475ms (1790 modules)
+ ✓ Compiled /api/projects in 227ms (962 modules)
+ GET /api/projects 200 in 281ms
+ ✓ Compiled /projects/[id] in 394ms (1279 modules)
+ ✓ Compiled /api/projects/[id] in 216ms (449 modules)
+ GET /api/projects/cmusbbvej00cqn9du0y91vkda 200 in 646ms
+ ✓ Compiled /api/dashboard in 186ms (433 modules)
+ GET /api/dashboard 200 in 259ms
+ ○ Compiling /opportunities ...
+ ✓ Compiled /opportunities in 654ms (1271 modules)
+ ✓ Compiled /api/opportunities in 216ms (439 modules)
+ GET /api/opportunities 200 in 297ms
+ GET /api/opportunities?category=Internships 200 in 22ms
+ GET /api/opportunities?category=Jobs 200 in 20ms
+ GET /api/opportunities?category=Projects 200 in 27ms
+ GET /api/opportunities?category=Hackathons 200 in 18ms
+ GET /api/opportunities?category=Competitions 200 in 23ms
+ GET /api/opportunities?category=Government 200 in 26ms
+ GET /api/opportunities?category=Startups 200 in 22ms
+ GET /api/opportunities?category=Research 200 in 23ms
+ GET /api/dashboard 200 in 37ms
+ GET /api/projects/cmusbbvej00cqn9du0y91vkda 200 in 40ms
+ GET /api/projects 200 in 25ms
+ GET /api/resources 200 in 23ms
+ ○ Compiling /api/roadmap ...
+ ✓ Compiled /api/roadmap in 664ms (439 modules)
+ GET /api/roadmap 200 in 731ms
+ GET /api/dashboard 200 in 30ms
+ ✓ Compiled /api/roadmap/reassess in 416ms (442 modules)
+ ✓ Compiled /api/roadmap/generate in 184ms (444 modules)
+ POST /api/roadmap/generate 201 in 593ms
+ POST /api/roadmap/reassess 200 in 963ms
+ GET /api/roadmap 200 in 23ms
+ GET /api/roadmap 200 in 20ms
+ POST /api/roadmap/generate 201 in 70ms
+ GET /api/roadmap 200 in 19ms
+ GET /api/projects 200 in 26ms
+ GET /api/opportunities 200 in 32ms
+ GET /api/opportunities?category=Startups 200 in 22ms
+ GET /api/opportunities?category=Government 200 in 21ms
+ GET /api/opportunities?category=Research 200 in 23ms
+ GET /api/opportunities?category=Competitions 200 in 26ms
+ GET /api/opportunities?category=Hackathons 200 in 21ms
+ GET /api/opportunities?category=Projects 200 in 21ms
+ GET /api/opportunities?category=Jobs 200 in 25ms
+ GET /api/opportunities?category=Internships 200 in 21ms
+ ○ Compiling /mentor ...
+ ✓ Compiled /mentor in 683ms (1276 modules)
+ ✓ Compiled /api/mentor in 235ms (453 modules)
+ POST /api/mentor 200 in 330ms
+ GET /api/opportunities 200 in 30ms
+ POST /api/mentor 200 in 45ms
+ POST /api/roadmap/reassess 200 in 67ms
+ GET /api/roadmap 200 in 24ms
+ POST /api/roadmap/generate 201 in 2347ms
+ GET /api/roadmap 200 in 15ms
+ POST /api/roadmap/generate 201 in 528ms
+ GET /api/roadmap 200 in 21ms
+ POST /api/roadmap/reassess 200 in 69ms
+ GET /api/roadmap 200 in 26ms
+ ✓ Compiled /explore in 171ms (455 modules)
+ ✓ Compiled /api/careers in 200ms (457 modules)
+ GET /api/careers? 200 in 253ms
+ ✓ Compiled /learn in 261ms (461 modules)
+ ✓ Compiled /api/resources in 210ms (463 modules)
+ GET /api/resources 200 in 250ms
+ GET /api/opportunities 200 in 29ms
+ ✓ Compiled /profile in 414ms (1305 modules)
+ ✓ Compiled /api/achievements in 242ms (469 modules)
+ ✓ Compiled (473 modules)
+ GET /api/achievements 200 in 691ms
+ GET /api/portfolio 200 in 695ms
+ GET /api/me 200 in 699ms
+ ✓ Compiled /api/feedback in 267ms (465 modules)
+ POST /api/feedback 201 in 334ms
+ ✓ Compiled /api/auth/me in 304ms (465 modules)
+ GET /api/auth/me 200 in 675ms
+ GET /api/me 200 in 668ms
+ GET /api/portfolio 200 in 669ms
+ GET /api/achievements 200 in 672ms
+ GET /api/careers? 200 in 30ms
+ ✓ Compiled /api/dashboard in 259ms (467 modules)
+ GET /api/dashboard 200 in 320ms
+ ○ Compiling /gap ...
+ ✓ Compiled /gap in 1010ms (1824 modules)
+ ✓ Compiled /api/gap in 330ms (986 modules)
+ GET /api/gap 200 in 378ms
+ GET /api/roadmap 200 in 28ms
+ POST /api/roadmap/reassess 200 in 64ms
+ GET /api/roadmap 200 in 32ms
+ GET /api/resources 200 in 20ms
+ ✓ Compiled /projects in 311ms (982 modules)
+ ✓ Compiled /api/projects in 247ms (984 modules)
+ GET /api/projects 200 in 296ms
+ ✓ Compiled /opportunities in 256ms (988 modules)
+ ✓ Compiled /api/opportunities in 288ms (990 modules)
+ GET /api/opportunities 200 in 334ms
+ GET /api/careers? 200 in 30ms
+ GET /api/careers?search=v 200 in 18ms
+ GET /api/careers?search=vi 200 in 18ms
+ GET /api/careers?search=vid 200 in 20ms
+ GET /api/careers?search=vide 200 in 21ms
+ GET /api/careers?search=video 200 in 20ms
+ GET /api/careers?category=Government 200 in 74ms
+ GET /api/careers? 200 in 25ms
+ ✓ Compiled /explore/[slug] in 209ms (963 modules)
+ ✓ Compiled /api/careers/[slug] in 355ms (965 modules)
+ GET /api/careers/software-developer 200 in 449ms
+ ✓ Compiled /assessment in 489ms (1786 modules)
+ ✓ Compiled /api/assessment/start in 210ms (947 modules)
+ POST /api/assessment/start 201 in 282ms
+ ✓ Compiled /dashboard in 154ms (947 modules)
+ ✓ Compiled /api/dashboard in 271ms (950 modules)
+ GET /api/dashboard 200 in 330ms
+ GET /api/careers/software-developer 200 in 55ms
+ GET /api/careers? 200 in 38ms
+ ✓ Compiled /api/projects in 212ms (952 modules)
+ GET /api/projects 200 in 259ms
+ ✓ Compiled /api/opportunities in 224ms (954 modules)
+ GET /api/opportunities 200 in 277ms
+ ✓ Compiled /api/resources in 180ms (956 modules)
+ GET /api/resources 200 in 229ms
+ ✓ Compiled /api/roadmap in 239ms (958 modules)
+ ✓ Compiled /api/gap in 206ms (960 modules)
+ GET /api/roadmap 200 in 766ms
+ GET /api/gap 200 in 629ms
+ ✓ Compiled /api/portfolio in 223ms (962 modules)
+ ✓ Compiled (977 modules)
+ GET /api/achievements 200 in 558ms
+ GET /api/me 200 in 560ms
+ GET /api/portfolio 200 in 568ms
+ ✓ Compiled /login in 298ms (981 modules)
+ ✓ Compiled /register in 262ms (985 modules)
+ ✓ Compiled /api/auth/register in 346ms (982 modules)
+ POST /api/auth/register 201 in 534ms
+ ○ Compiling /onboarding ...
+ ✓ Compiled /onboarding in 551ms (1830 modules)
+ PATCH /api/me 200 in 35ms
+ ✓ Compiled /api/me/interests in 175ms (957 modules)
+ PUT /api/me/interests 200 in 359ms
+ ✓ Compiled /api/me/skills in 210ms (959 modules)
+ PUT /api/me/skills 200 in 342ms
+ ✓ Compiled /api/assessment/start in 163ms (961 modules)
+ POST /api/assessment/start 201 in 249ms
+ ✓ Compiled /api/assessment/[id]/answer in 196ms (958 modules)
+ POST /api/assessment/cmuscu3p000802ceim4ikbnxl/answer 200 in 579ms
+ POST /api/assessment/cmuscu3p000802ceim4ikbnxl/answer 200 in 321ms
+ POST /api/assessment/cmuscu3p000802ceim4ikbnxl/answer 200 in 117ms
+ POST /api/assessment/cmuscu3p000802ceim4ikbnxl/answer 200 in 48ms
+ POST /api/assessment/cmuscu3p000802ceim4ikbnxl/answer 200 in 35ms
+ POST /api/assessment/cmuscu3p000802ceim4ikbnxl/answer 200 in 50ms
+ POST /api/assessment/cmuscu3p000802ceim4ikbnxl/answer 200 in 40ms
+ POST /api/assessment/cmuscu3p000802ceim4ikbnxl/answer 200 in 41ms
+ POST /api/assessment/cmuscu3p000802ceim4ikbnxl/answer 200 in 49ms
+ POST /api/assessment/cmuscu3p000802ceim4ikbnxl/answer 200 in 33ms
+ POST /api/assessment/cmuscu3p000802ceim4ikbnxl/answer 200 in 29ms
+ POST /api/assessment/cmuscu3p000802ceim4ikbnxl/answer 200 in 55ms
+ POST /api/assessment/cmuscu3p000802ceim4ikbnxl/answer 200 in 44ms
+ POST /api/assessment/cmuscu3p000802ceim4ikbnxl/answer 200 in 45ms
+ POST /api/assessment/cmuscu3p000802ceim4ikbnxl/answer 200 in 40ms
+ POST /api/assessment/cmuscu3p000802ceim4ikbnxl/answer 200 in 38ms
+ POST /api/assessment/cmuscu3p000802ceim4ikbnxl/answer 200 in 30ms
+ ✓ Compiled /api/assessment/[id]/finish in 242ms (962 modules)
+ POST /api/assessment/cmuscu3p000802ceim4ikbnxl/finish 200 in 678ms
+ ✓ Compiled /explore in 200ms (966 modules)
+ ✓ Compiled /api/careers in 254ms (968 modules)
+ GET /api/careers? 200 in 313ms
+ POST /api/assessment/start 201 in 31ms
+ POST /api/assessment/cmuscuryd00982ceiwbuqhr0n/answer 200 in 45ms
+ POST /api/assessment/cmuscuryd00982ceiwbuqhr0n/answer 200 in 73ms
+ POST /api/assessment/cmuscuryd00982ceiwbuqhr0n/answer 200 in 48ms
+ POST /api/assessment/cmuscuryd00982ceiwbuqhr0n/answer 200 in 33ms
+ POST /api/assessment/cmuscuryd00982ceiwbuqhr0n/answer 200 in 50ms
+ POST /api/assessment/cmuscuryd00982ceiwbuqhr0n/answer 200 in 31ms
+ POST /api/assessment/cmuscuryd00982ceiwbuqhr0n/answer 200 in 43ms
+ POST /api/assessment/cmuscuryd00982ceiwbuqhr0n/answer 200 in 47ms
+ POST /api/assessment/cmuscuryd00982ceiwbuqhr0n/answer 200 in 36ms
+ POST /api/assessment/cmuscuryd00982ceiwbuqhr0n/answer 200 in 34ms
+ POST /api/assessment/cmuscuryd00982ceiwbuqhr0n/answer 200 in 53ms
+ POST /api/assessment/cmuscuryd00982ceiwbuqhr0n/answer 200 in 46ms
+ POST /api/assessment/cmuscuryd00982ceiwbuqhr0n/answer 200 in 42ms
+ POST /api/assessment/cmuscuryd00982ceiwbuqhr0n/answer 200 in 36ms
+ POST /api/assessment/cmuscuryd00982ceiwbuqhr0n/answer 200 in 35ms
+ POST /api/assessment/cmuscuryd00982ceiwbuqhr0n/finish 200 in 121ms
+ ✓ Compiled /gap in 184ms (968 modules)
+ ✓ Compiled /api/gap in 249ms (970 modules)
+ GET /api/gap 404 in 309ms
+ GET /api/gap 404 in 14ms
+ GET /api/careers? 200 in 31ms
+ GET /api/careers?category=Technology 200 in 22ms
+ ✓ Compiled /explore/[slug] in 193ms (972 modules)
+ ✓ Compiled /api/careers/[slug] in 310ms (974 modules)
+ GET /api/careers/ai-ml-engineer 200 in 404ms
+ ✓ Compiled /api/goals in 190ms (972 modules)
+ POST /api/goals 201 in 1372ms
+ ✓ Compiled /api/roadmap/generate in 235ms (975 modules)
+ POST /api/roadmap/generate 201 in 753ms
+ ✓ Compiled /roadmap in 268ms (979 modules)
+ ✓ Compiled /api/roadmap in 276ms (981 modules)
+ GET /api/roadmap 200 in 338ms
+ GET /api/careers? 200 in 33ms
+ GET /api/roadmap 200 in 27ms
+ ✓ Compiled /learn in 202ms (966 modules)
+ ✓ Compiled /api/resources in 256ms (968 modules)
+ GET /api/resources 200 in 308ms
+ GET /api/resources?skill=Strengthen%20Machine%20Learning:%20fundamental 200 in 13ms
+ GET /api/resources?skill=Strengthen%20Machine%20Learning:%20fundamental 200 in 11ms
+ GET /api/resources?skill=Strengthen%20Machine%20Learning:%20fundamentals 200 in 12ms
+ GET /api/resources 200 in 26ms
+ GET /api/roadmap 200 in 31ms
+ POST /api/roadmap/generate 201 in 123ms
+ GET /api/roadmap 200 in 22ms
+ ✓ Compiled /profile in 213ms (951 modules)
+ ✓ Compiled /api/portfolio in 215ms (964 modules)
+ ✓ Compiled (968 modules)
+ GET /api/achievements 200 in 505ms
+ GET /api/me 200 in 508ms
+ GET /api/portfolio 200 in 516ms
+ ✓ Compiled /api/feedback in 199ms (964 modules)
+ POST /api/feedback 201 in 255ms
+ ○ Compiling /pathways ...
+ ✓ Compiled /pathways in 625ms (1814 modules)
+ ✓ Compiled /api/pathways in 277ms (971 modules)
+ GET /api/pathways 200 in 334ms
+ ✓ Compiled /api/goals/pivot in 278ms (969 modules)
+ POST /api/goals/pivot 200 in 402ms
+ GET /api/pathways 200 in 28ms
+ GET /api/me 200 in 37ms
+ GET /api/achievements 200 in 45ms
+ GET /api/portfolio 200 in 47ms
+ ✓ Compiled /dashboard in 197ms (973 modules)
+ ✓ Compiled /api/dashboard in 282ms (975 modules)
+ GET /api/dashboard 200 in 351ms
+ ✓ Compiled /opportunities in 185ms (454 modules)
+ ✓ Compiled /api/opportunities in 195ms (456 modules)
+ GET /api/opportunities 200 in 249ms
+ GET /api/opportunities 200 in 89ms
+ ○ Compiling /api/auth/me ...
+ ✓ Compiled /api/auth/me in 527ms (425 modules)
+ GET /api/auth/me 200 in 631ms
+ ✓ Compiled /api/resources in 158ms (427 modules)
+ GET /api/resources 200 in 213ms
+ GET /api/auth/me 200 in 36ms
+ GET /api/auth/me 200 in 39ms
+ GET /api/resources 200 in 52ms
+ GET /api/auth/me 200 in 135ms
+ GET /api/resources 200 in 141ms
